@@ -54,7 +54,7 @@ code {
 }
 
 .sidebar {
-  background-color: rgb(241, 199, 206);
+  background-color: rgb(135,86,209);
   width: 15px;
   height: 100%;
   align-self: flex-end;
@@ -62,7 +62,7 @@ code {
 }
 
 .sidebar-expanded {
-  background-color: rgb(241, 199, 206);
+  background-color: rgb(135,86,209);
   width: 100%;
   height: 100%;
   align-self: flex-end;
@@ -74,15 +74,17 @@ button {
   position: absolute;
   cursor: pointer;
   border: none;
-  top: 250px;
+  top: 350px;
   transform: translateX(-95%);
   border-radius: 5px;
+  background: rgb(135,86,209);
+  z-index: 1;
 }
 
 .instabody {
-  background-color: rgb(194, 133, 143);
+  background-color: rgb(222, 189, 182);
   max-height: inherit;
-  height: calc(90vh - 200px);
+  height: calc(90vh - 300px);
   width: inherit;
   display: flex;
   justify-content: right;
@@ -91,7 +93,6 @@ button {
 
 .instafeed {
   width: calc(100% - 15px);
-
   justify-self: flex-start;
 }
 
@@ -103,7 +104,7 @@ button {
   background-color: pink;
   margin: 0px;
   padding: 0px;
-  height: 200px;
+  height: 300px;
 }
 
 .header h1 {
@@ -114,5 +115,10 @@ button {
 canvas {
   height: 100%;
   width: 100%;
+
+}
+
+.elfsight-app-a4c68b5d-cba3-4cc7-b489-03a19566d19a {
+  padding: 100px;
 
 }
